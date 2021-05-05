@@ -1,0 +1,73 @@
+/* CSS Document */
+body {
+    font:12px arial;
+    color: black;
+    text-align:center;
+    padding:100px;
+    background-image: url(images/photonsky_other.jpg)}
+
+form, p, span {
+    margin:0;
+    padding:0; }
+
+input { font:16px arial; }
+
+a {
+    color:black;
+    text-decoration:none; }
+
+    a:hover { text-decoration:underline; }
+
+#wrapper, #loginform {
+    margin:0 auto;
+    width: 70%;
+    height: 750px;
+    padding-bottom:30px;
+    background-image: url(images/pattern2.jpg);
+    border:15px solid white;
+    border-radius: 10px;}
+
+#loginform { padding-top:18px; }
+
+    #loginform p { margin: 5px; }
+
+#chatbox {
+    text-align:left;
+    margin:0 auto;
+    margin-bottom:25px;
+    padding:15px 30px;
+    background:#fff;
+    height:450px;
+    width:70%;
+    border:1px solid #ACD8F0;
+    border-radius: 10px;
+    overflow:auto; }
+
+#usermsg {
+    width:395px;
+    border:2px solid black; }
+
+#submit { width: 80px; }
+
+.error { color: #ff0000; }
+
+#menu {
+  width:70%;
+  padding: 25px 0;
+  margin: 0 auto;}
+  
+
+.welcome {
+  float:left;
+  font-size: 16px;}
+
+.headlines {
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  color: black;}
+
+.logout {
+  float:right;
+  font-size: 16px;}
+
+.msgln { margin:0 0 2px 0; }
